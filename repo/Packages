@@ -1,0 +1,16 @@
+Package: com.halston696.twitteruicustomizer
+Version: null
+Architecture: iphoneos-arm
+Maintainer: halston696 <halston696@gmail.com.com>
+Installed-Size: null
+Depends: mobilesubstrate
+Filename: https://halston696.github.io/repo/debs/com.halston696.twitteruicustomizer_0.0.1-1_iphoneos-arm.deb
+Size: null
+MD5sum: d62c8c33dc205159509ebb4ad074f084
+SHA1: bcd581f0b67f5239197f60d111803e2521b0f63e
+SHA256: 1482709aaa45b65f0f401b73ec5c4a639ebd481d51286607c62a586eca7ec50a
+Section: Tweaks
+Description: TwitterUICustomizer
+Author: halston696 <halston696@gmail.com.com>
+Depiction: https://halston696.github.io/repo/TwitterUICustomizer/index.html
+Name: TwitterUICustomizer
