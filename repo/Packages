@@ -1,7 +1,7 @@
 Package: com.halston696.twitteruicustomizer
 Version: 1.0-1
 Architecture: iphoneos-arm
-Installed-Size: 251
+Installed-Size: 284
 Depends: mobilesubstrate, preferenceloader, org.thebigboss.libcolorpicker
 Filename: debs/com.halston696.twitteruicustomizer_1.0-1_iphoneos-arm.deb
 Size: 21564
