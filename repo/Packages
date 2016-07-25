@@ -1,7 +1,6 @@
 Package: com.halston696.twitteruicustomizer
 Version: 0.0.1-3
 Architecture: iphoneos-arm
-Maintainer: halston696 <halston696@gmail.com.com>
 Installed-Size: 251
 Depends: mobilesubstrate, preferenceloader, org.thebigboss.libcolorpicker
 Filename: debs/com.halston696.twitteruicustomizer_0.0.1-3_iphoneos-arm.deb
@@ -11,6 +10,6 @@ SHA1: 1ac05078e99070eca52e5c54e29ce18b5042dee1
 SHA256: 6497c659894b022ba6b50a5bb8833c2e05dd08b3cbd720d225b4846cfc2098c5
 Section: Tweaks
 Description: TwitterUICustomizer
-Author: halston696 <halston696@gmail.com.com>
-Depiction: https://halston696.github.io/repo/TwitterUICustomizer/index.html
+Author: halston696 <halston696@gmail.com>
+Depiction: http://halston696.github.io/repo/TwitterUICustomizer/index.html
 Name: TwitterUICustomizer
