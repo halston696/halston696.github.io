@@ -2,7 +2,7 @@ Package: com.halston696.twitteruicustomizer
 Version: 0.0.1-3
 Architecture: iphoneos-arm
 Maintainer: halston696 <halston696@gmail.com.com>
-Installed-Size: null
+Installed-Size: 251
 Depends: mobilesubstrate
 Filename: debs/com.halston696.twitteruicustomizer_0.0.1-3_iphoneos-arm.deb
 Size: 21574
