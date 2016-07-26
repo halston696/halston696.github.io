@@ -13,3 +13,19 @@ Description: TwitterUICustomizer
 Author: halston696 <halston696@gmail.com>
 Depiction: http://halston696.github.io/repo/TwitterUICustomizer/index.html
 Name: TwitterUICustomizer
+
+Package: com.halston696.nolinesnc
+Version: 0.0.2-4
+Architecture: iphoneos-arm
+Installed-Size: 304
+Depends: mobilesubstrate, preferenceloader, org.thebigboss.libcolorpicker
+Filename: debs/com.halston696.nolinesnc_0.0.2-4_iphoneos-arm.deb
+Size: 57432
+MD5sum: c7de74f654ca65b086f759737e4e8cbc
+SHA1: 2c965a7a15b57262fa9ae895d6130662f4c883d9
+SHA256: cfee313cdb0e7b70ce1da34e96e3241de6adf802dd284916b971b3692182acc4
+Section: Tweaks
+Description: no lines nc
+Author: halston696 <halston696@gmail.com>
+Depiction: http://halston696.github.io/repo/nolinesnc/index.html
+Name: No Lines NC
