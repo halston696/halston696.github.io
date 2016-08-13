@@ -5,9 +5,9 @@ Installed-Size: 290
 Depends: mobilesubstrate, preferenceloader, org.thebigboss.libcolorpicker
 Filename: debs/com.halston696.twitteruicustomizer_0.0.3-2_iphoneos-arm.deb
 Size: 277550
-MD5sum: 6503e9391b8f9eac1a51b52333df3ff9
-SHA1: 5c039bd36f2e9ae2ca141e0f9b2f5cce1920a176
-SHA256: 8fad059a0ccc216b8941f0a6f99686e7c807c71085b877712a67d570131296d9
+MD5sum: d77e500b577ef53fade2082374b5c3c8
+SHA1: ce610eaf547b3def967d51dd6efbc4fca3ab2cb3
+SHA256: ae8906b235f6c191c061ed5f3723bef6d925ffe66d20ae4bfa124f0052a07270
 Section: Tweaks
 Description: TwitterUICustomizer
 Author: halston696 <halston696@gmail.com>
