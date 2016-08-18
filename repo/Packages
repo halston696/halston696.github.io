@@ -11,7 +11,7 @@ SHA256: dc02ea42834128239fe2895c09872e62c62b9956e51cb8fe8c308e4243dff5bf
 Section: Tweaks
 Description: TwitterUICustomizer
 Author: halston696 <halston696@gmail.com>
-Depiction: .///twitteruicustomizer/index.html
+Depiction: halston696.github.io/repo/twitteruicustomizer/index.html
 Name: TwitterUICustomizer
 
 Package: com.halston696.nolinesnc
