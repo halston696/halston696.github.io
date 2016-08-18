@@ -12,6 +12,7 @@ Section: Tweaks
 Description: TwitterUICustomizer
 Author: halston696 <halston696@gmail.com>
 Name: TwitterUICustomizer
+Depiction: twitteruicustomizer/index.html
 
 Package: com.halston696.nolinesnc
 Version: 0.0.2-4
