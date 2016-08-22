@@ -15,7 +15,7 @@ hr{ height: 2px; border: 0; border-top: 0.5px solid rgba(255,255,255,0.1); borde
 .selectableText{ -webkit-user-select: text; user-select: text; }
 a[href="https://twitter.com/halston696"]{ color: #00aced; }
 a[href="http://halston696.com/repo"]{ color: #27AE60; }
-a[href="https://cydia.saurik.com/api/share#?source=https://halston696.github.io/repo"]{ color: #AB7053; }
+a[href="https://cydia.saurik.com/api/share#?source=http://halston696.com/repo"]{ color: #AB7053; }
 
 
 
