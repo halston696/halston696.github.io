@@ -4,10 +4,10 @@ Architecture: iphoneos-arm
 Installed-Size: 390
 Depends: mobilesubstrate, preferenceloader, org.thebigboss.libcolorpicker
 Filename: debs/com.halston696.youtubeuicustomizer_0.0.2-3_iphoneos-arm.deb
-Size: 141128
-MD5sum: 4deca2bd427150e983edcbd33c543eda
-SHA1: 7931975da25d4a1ac3882c1e1db62b17c9e0d445
-SHA256: 8ac671d4d649aa4879bcfb2ec4d7b1b773e785622960b945f5020f050135af04
+Size: 141136
+MD5sum: be3bdafcbc4f76c469515873d62de216
+SHA1: 487ee73791baf640aa13bb1cc271dbb453e14990
+SHA256: 8e3d53d6a8bae1e3f107c50d1d19b03d3c4950094edfceaa288097d6cc64a83b
 Section: Tweaks
 Description: YouTubeUICustomizer
 Author: halston696 <halston696@gmail.com>
