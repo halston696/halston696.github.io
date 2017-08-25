@@ -11,24 +11,8 @@ SHA256: 8ac671d4d649aa4879bcfb2ec4d7b1b773e785622960b945f5020f050135af04
 Section: Tweaks
 Description: YouTubeUICustomizer
 Author: halston696 <halston696@gmail.com>
-Depiction: http://halston696.site44.com/twitteruicustomizer/index.html
+Depiction: http://halston696.github.io/repo/nolinesnc/index.html
 Name: YouTubeUICustomizer
-
-Package: com.halston696.twitteruicustomizer
-Version: 0.0.2-3
-Architecture: iphoneos-arm
-Installed-Size: 290
-Depends: mobilesubstrate, preferenceloader, org.thebigboss.libcolorpicker
-Filename: debs/com.halston696.twitteruicustomizer_0.0.2-3_iphoneos-arm.deb
-Size: 277540
-MD5sum: f040366e320bed5e117926cbc911129f
-SHA1: a7e04a9379faa720b32bbf4b8149b4093bb51f36
-SHA256: c4e8ce6d824700562de890d9db1bc25cb713e63d8c489afebd873a8cb971a5c1
-Section: Tweaks
-Description: TwitterUICustomizer
-Author: halston696 <halston696@gmail.com>
-Depiction: http://halston696.site44.com/twitteruicustomizer/index.html
-Name: TwitterUICustomizer
 
 Package: com.halston696.nolinesnc
 Version: 0.0.2-4
