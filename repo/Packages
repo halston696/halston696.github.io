@@ -2,7 +2,7 @@ Package: com.halston696.youtubeuicustomizer
 Version: 0.0.2-3
 Architecture: iphoneos-arm
 Installed-Size: 390
-Depends: mobilesubstrate, preferenceloader, org.thebigboss.libcolorpicker
+Depends: mobilesubstrate
 Filename: debs/com.halston696.youtubeuicustomizer_0.0.2-3_iphoneos-arm.deb
 Size: 141136
 MD5sum: be3bdafcbc4f76c469515873d62de216
