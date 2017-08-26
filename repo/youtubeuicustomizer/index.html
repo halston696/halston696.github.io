@@ -3,126 +3,65 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-	<meta name="description" content="">
-	
+	<meta name="description" content="YouTubeUICustomizer Cydia Depiction">
 	<title>YouTubeUICustomizer</title>
-	
-	<!-- Android Chrome Web App -->
-	<meta name="mobile-web-app-capable" content="yes">
-	
-	<!-- iOS Safari Web App -->
-	<meta name="apple-mobile-web-app-capable" content="yes">
 <style>
-body{
-    font-family: sans-serif;
-}
-
-.card > .discription > ul{
-    margin: 0;
-    padding: 0;
-}
-body{
-    margin: 0;
-}
-
-
-ul, li{
-    margin: 0;
-    padding: 0;
-    list-style-position: inside;
-    list-style-type: disc;
-}
-
-
-
-.card > .discription > ul{
-    margin: 0;
-    padding: 0;
-    background: ;
-}
-.card > .discription > ul > ul{
-    padding: 0 20px;
-    background: ;
-}
-.card > .discription > ul > ul > ul{
-    padding: 0 25px;
-    background: ;
-}
-.card > .discription > p{
-    margin: 0;
-    padding: 0;
-}
-
-
-.card{
-    margin: 44px 0;
-    padding: 12px;
-    color: rgb(40,40,40);
-    background: rgb(255,255,255) !important;
-    box-shadow: 0px 0px 3px rgba(0,0,0,0.3);
-}
-.card > .discription{
-    font-size: 14px;
-}
-.card > .discription label{
-    display: block;
-    font-size: 17px;
-    font-weight: bold;
-}
-.card > .discription img{
-    display: block;
-    margin: auto;
-    box-shadow: 0px 0px 3px rgba(0,0,0,0.3);
-}
-
+body{ margin: 0; padding: 0; font-family: sans-serif; }
+.card{ margin: 9px auto; width: 100%; max-width: 500px; box-shadow: 0 0 3px rgba(0,0,0,0.3); }
+.card .inner{ padding: 0 15px; }
+.card .inner label{ display: block; padding: 12px 0; font-weight: bold; }
+.card .inner .content{ padding: 0 0 12px 0; font-size: 14px; }
+.card .inner .content p{ margin: 0; padding: 0 0 12px 0; }
+.card .inner .content .screenshots{ padding: 12px 0 0 0; text-align: center; }
+.halston696ListView > ul , .halston696ListView > ul, .halston696ListView  > ul > li{margin: 0; padding: 0;}
+.halston696ListView > ul > li{ padding: 0 0 0 10px; list-style-position: inside; list-style-type: disc;}
+.halston696ListView > ul  > li > span { position: relative; left: -10px; }
 </style>
 </head>
 <body>
 <div class="card">
-    <div class="discription">
-    	<label>Discription</label>
-    	<br />
-    	<p>Make YouTube Yours!</p>
-    	<br />
-    	<ul class="featureList">
-    	    Features
-    	    <ul>
-        		<li>System UI Color</li>
-        		<li>Disable recomendations in video player</li>
-    	    </ul>
-    	</ul>
-    	<br />
-    	<p>Lots more coming soon :)</p>
-    	<br />
-    	<p>Default Color is green</p>
-    	<br />
-    	<p>Configure options from Settings.</p>
-    	<br />
-    	<img src="http://halston696.github.io/repo/youtubeuicustomizer/screenshots/one.png" width="80%" />
+    <div class="inner">
+        <label>Discription</label>
+        <div class="content">
+            <p>Customize the YouTube app UI</p>
+            <p>Default Color is green</p>
+            <p>Configure options from Settings.</p>
+            <div class="halston696ListView">
+                Features
+                <ul>
+                    <li><span>System UI Color<span></li>
+                    <li><span>Disable recomendations in video player<span></li>
+                </ul>
+            </div>
+            <p></p>
+            <div class="screenshots">
+                <img src="http://halston696.github.io/repo/youtubeuicustomizer/screenshots/one.png" width="90%" />
+            </div>
+        </div>
     </div>
 </div>
 
 <div class="card">
-    <div class="discription">
-        <label>whats new</label>
-        <ul class="featureList">
-            0.0.2-4
-            <ul>
-                <li>bug fixes</li>
-            </ul>
-        </ul>
+    <div class="inner">
+        <label>What's New</label>
+        <div class="content">
+            <div class="halston696ListView">
+                0.0.2-4
+                <ul>
+                    <li><span>bug fixes<span></li>
+                </ul>
+            </div>
+        </div>
     </div>
 </div>
-
 <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-82889579-1', 'auto');
-  ga('send', 'pageview');
-
+    ga('create', 'UA-82889579-1', 'auto');
+    ga('send', 'pageview');
 </script>
 </body>
 </html>
