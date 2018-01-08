@@ -11,7 +11,7 @@ SHA256: 1d0e5c36f980a7625c27ec32d2dae7833507cad9f3a9bb05ae34518e1019ab29
 Section: Tweaks
 Description: YouTubeUICustomizer
 Author: halston696 <halston696@gmail.com>
-Depiction: http://halston696.github.io/repo/youtubeuicustomizer/index.html
+Depiction: http://halston696.github.io/repo/depictions/youtubeuicustomizer/index.html
 Name: YouTubeUICustomizer
 
 Package: com.halston696.nolinesnc
@@ -27,5 +27,5 @@ SHA256: cfee313cdb0e7b70ce1da34e96e3241de6adf802dd284916b971b3692182acc4
 Section: Tweaks
 Description: no lines nc
 Author: halston696 <halston696@gmail.com>
-Depiction: http://halston696.github.io/repo/nolinesnc/index.html
+Depiction: http://halston696.github.io/repo/depictions/nolinesnc/index.html
 Name: No Lines NC
