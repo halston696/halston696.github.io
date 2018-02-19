@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="../assets/css/site.css">
     <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'>
 <style>
+body{ background: url(../assets/images/bg.png); color: white; }
+
+a{ text-decoration: none; }
 img{ vertical-align: middle; }
 
 .wrapper{
@@ -35,6 +38,8 @@ div.wrapper > div{
 
 .wrapper div:hover .menu p{
     color: white;
+    padding: 0;
+    margin: 0;
 }
 
 .wrapper div .menu ul,
@@ -48,6 +53,10 @@ div.wrapper > div{
     transform: translateY(-50%);
     top: 50%;
 }
+.wrapper div .menu ul li{
+    padding: 5px 0;
+}
+
 .wrapper div .menu ul li a{
     display: block;
     color: white;
@@ -55,23 +64,36 @@ div.wrapper > div{
     text-decoration: none;
     font-weight: bolder;
 }
+.wrapper hr{ margin: 0; height: 2px; border: 0; border-top: 0.5px inset rgba(255,255,255,0.1); border-bottom: 0.5px inset rgba(255,255,255,0.1); background: rgba(0,0,0,0.5); }
+
+.black-background { background: #1B1B1B; }
+.blue-background  { background: #1B2836; }
+
+.blue-color   { color: #1DA1F2; }
+.green-color  { color: #27AE60; }
+.orange-color { color: #FF9800; }
+.pink-color   { color: #E91E63; }
+.purple-color { color: #9C27B0; }
+.red-color    { color: #F44336; }
+
 
 </style>
 </head>
 <body>
     <div class="wrapper">
         <p style="padding: 15px;">
-            here are a few hard-coded versions of TwitterUICustomizer, for use with the <a href="https://coolstar.org/electra/">Electra Toolkit</a>.<br>
+            here are a few hard-coded versions of TwitterUICustomizer, for use with the <a class="green-color" href="https://coolstar.org/electra/">Electra Toolkit</a>.<br>
             being that preferences aren't wanting to work like they should<br>
-            these are intended to be used on arm64 devices running the <a href="https://coolstar.org/electra/">Electra Toolkit</a>, and the latest twitter app (7.15 (possible lower) at the time of writing this).
+            these are intended to be used on arm64 devices running the <a class="green-color" href="https://coolstar.org/electra/">Electra Toolkit</a>, and the latest twitter app (7.15 (possible lower) at the time of writing this).
         </p>
         <hr>
         <p style="padding: 15px;">to install, extract your downloaded zip and place it's contents in "/bootstrap/Library/SBInject"</p>
+        <hr>
         <div>
             <img src="img/TwitterUICustomizerAltNightMode.JPG" alt="TwitterUICustomizerAltNightMode" width="250">
             <div class="menu">
-                <ul>
-                    <li><p>Default<br>Alt Night Mode</p></li>
+                <ul class="black-background">
+                    <li><p><span class="blue-color">Default</span><br>Alt Night Mode</p></li>
                     <li><a href="zip/TwitterUICustomizerAltNightMode.zip">Download</a></li>
                 </ul>
             </div>
@@ -79,8 +101,8 @@ div.wrapper > div{
         <div>
             <img src="img/TwitterUICustomizerGreenAltNightMode.JPG" alt="TwitterUICustomizerGreenAltNightMode" width="250">
             <div class="menu">
-                <ul>
-                    <li><p>Green<br>Alt Night Mode</p></li>
+                <ul class="black-background">
+                    <li><p><span class="green-color">Green</span><br>Alt Night Mode</p></li>
                     <li><a href="zip/TwitterUICustomizerGreenAltNightMode.zip">Download</a></li>
                 </ul>
             </div>
@@ -88,8 +110,8 @@ div.wrapper > div{
         <div>
             <img src="img/TwitterUICustomizerOrangeAltNightMode.JPG" alt="TwitterUICustomizerOrangeAltNightMode" width="250">
             <div class="menu">
-                <ul>
-                    <li><p>Orange<br>Alt Night Mode</p></li>
+                <ul class="black-background">
+                    <li><p><span class="orange-color">Orange</span><br>Alt Night Mode</p></li>
                     <li><a href="zip/TwitterUICustomizerOrangeAltNightMode.zip">Download</a></li>
                 </ul>
             </div>
@@ -97,8 +119,8 @@ div.wrapper > div{
         <div>
             <img src="img/TwitterUICustomizerPinkAltNightMode.JPG" alt="TwitterUICustomizerPinkAltNightMode" width="250">
             <div class="menu">
-                <ul>
-                    <li><p>Pink<br>Alt Night Mode</p></li>
+                <ul class="black-background">
+                    <li><p><span class="pink-color">Pink</span><br>Alt Night Mode</p></li>
                     <li><a href="zip/TwitterUICustomizerPinkAltNightMode.zip">Download</a></li>
                 </ul>
             </div>
@@ -106,8 +128,8 @@ div.wrapper > div{
         <div>
             <img src="img/TwitterUICustomizerPurpleAltNightMode.JPG" alt="TwitterUICustomizerPurpleAltNightMode" width="250">
             <div class="menu">
-                <ul>
-                    <li><p>Purple<br>Alt Night Mode</p></li>
+                <ul class="black-background">
+                    <li><p><span class="purple-color">Purple</span><br>Alt Night Mode</p></li>
                     <li><a href="zip/TwitterUICustomizerPurpleAltNightMode.zip">Download</a></li>
                 </ul>
             </div>
@@ -115,17 +137,18 @@ div.wrapper > div{
         <div>
             <img src="img/TwitterUICustomizerRedAltNightMode.JPG" alt="TwitterUICustomizerRedAltNightMode" width="250">
             <div class="menu">
-                <ul>
-                    <li><p>Red<br>Alt Night Mode</p></li>
+                <ul class="black-background">
+                    <li><p><span class="red-color">Red</span><br>Alt Night Mode</p></li>
                     <li><a href="zip/TwitterUICustomizerRedAltNightMode.zip">Download</a></li>
                 </ul>
             </div>
         </div>
+        <hr>
         <div>
             <img src="img/TwitterUICustomizerGreen.JPG" alt="TwitterUICustomizerGreen" width="250">
             <div class="menu">
-                <ul>
-                    <li><p>Green</p></li>
+                <ul class="blue-background">
+                    <li><p><span class="green-color">Green</span></p></li>
                     <li><a href="zip/TwitterUICustomizerGreen.zip">Download</a></li>
                 </ul>
             </div>
@@ -133,8 +156,8 @@ div.wrapper > div{
         <div>
             <img src="img/TwitterUICustomizerOrange.JPG" alt="TwitterUICustomizerOrange" width="250">
             <div class="menu">
-                <ul>
-                    <li><p>Orange</p></li>
+                <ul class="blue-background">
+                    <li><p><span class="orange-color">Orange</span></p></li>
                     <li><a href="zip/TwitterUICustomizerOrange.zip">Download</a></li>
                 </ul>
             </div>
@@ -142,8 +165,8 @@ div.wrapper > div{
         <div>
             <img src="img/TwitterUICustomizerPink.JPG" alt="TwitterUICustomizerPink" width="250">
             <div class="menu">
-                <ul>
-                    <li><p>Pink</p></li>
+                <ul class="blue-background">
+                    <li><p><span class="pink-color">Pink</span></p></li>
                     <li><a href="zip/TwitterUICustomizerPink.zip">Download</a></li>
                 </ul>
             </div>
@@ -151,8 +174,8 @@ div.wrapper > div{
         <div>
             <img src="img/TwitterUICustomizerPurple.JPG" alt="TwitterUICustomizerPurple" width="250">
             <div class="menu">
-                <ul>
-                    <li><p>Purple</p></li>
+                <ul class="blue-background">
+                    <li><p><span class="purple-color">Purple</span></p></li>
                     <li><a href="zip/TwitterUICustomizerPurple.zip">Download</a></li>
                 </ul>
             </div>
@@ -160,17 +183,20 @@ div.wrapper > div{
         <div>
             <img src="img/TwitterUICustomizerRed.JPG" alt="TwitterUICustomizerRed" width="250">
             <div class="menu">
-                <ul>
-                    <li><p>Red</p></li>
+                <ul class="blue-background">
+                    <li><p><span class="red-color">Red</span></p></li>
                     <li><a href="zip/TwitterUICustomizerRed.zip">Download</a></li>
                 </ul>
             </div>
         </div>
+        <footer>
+            <p class="copyRight centerText">&copy; 2016 - 2017 Wylliam Altman (<a href="https://twitter.com/halston696">@halston696</a>)</p>
+        </footer>
     </div>
 
 <!--
 
-    <ul>
+    <ul class="black-background">
         <li><a href="zip/TwitterUICustomizerBlue.zip">TwitterUICustomizerBlue.zip</a></li>
         <li><a href="zip/TwitterUICustomizerBlueAltNightMode.zip">TwitterUICustomizerBlueAltNightMode.zip</a></li>
         <li><a href="zip/TwitterUICustomizerGreen.zip">TwitterUICustomizerGreen.zip</a></li>

@@ -8,24 +8,17 @@
     <link rel="stylesheet" href="assets/css/site.css">
     <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'>
 <style>
-body{ color: white; }
-.background{ position: fixed; top: 0; right: 0; bottom: 0; left: 0; background: url(assets/images/bg.png); }
+body{ background: url(assets/images/bg.png); color: white; }
+
 .content{ position: absolute; width: 100%; }
 
-.header{ position: fixed; width: 100%; }
+.header{ position: fixed; width: 100%; background: url(assets/images/bg.png); color: white; }
 .header img{ margin: 30px auto 15px auto; display: block; box-shadow: 0px 3px 8px #0f0f0f; border-radius: 100%; }
 .header h1{ margin: 0 0 15px 0; padding: 0; text-align: center; display: block; font-size: 25px; font-weight: 400; }
 
 hr{ height: 2px; border: 0; border-top: 0.5px inset rgba(255,255,255,0.1); border-bottom: 0.5px inset rgba(255,255,255,0.1); background: rgba(0,0,0,0.5); }
 
 .commingSoon{ font-size: 15px; }
-.centerText{ text-align: center; }
-.largFont{ font-size: 21px; font-weight: 300; }
-.boldFont{ font-weight: 600; }
-.selectableText{ -webkit-user-select: text; user-select: text; }
-a[href="https://twitter.com/halston696"]{ color: #00aced; }
-a[href="http://halston696.com/repo"]{ color: #27AE60; }
-a[href="https://cydia.saurik.com/api/share#?source=http://halston696.com/repo"]{ color: #AB7053; }
 
 .content p{ padding: 10px 0; }
 .contentBlock{ position: absolute; top: 220px; width: 100%; border-top: 0.5px solid black; background: url(assets/images/bg.png); }
@@ -33,7 +26,7 @@ a[href="https://cydia.saurik.com/api/share#?source=http://halston696.com/repo"]{
 .codeBlock{ margin: -25px 0 15px 0; padding: 12px; }
 .codeBlock .var{ color: #28A0E4; }
 .codeBlock .inner{ padding-left: 12px; }
-.codeBlock a{ color: white; padding: 3px 12px; display: block; text-decoration: none; }
+.codeBlock a{ color: white; padding: 3px 12px; display: inline-block; text-decoration: none; }
 .codeBlock .yellow{ color: #ECEE4F; text-decoration: underline; }
 .codeBlock .pink{ color: #D5063F; }
 .codeBlock .comment{ color: gray; }
@@ -47,11 +40,11 @@ a[href="https://cydia.saurik.com/api/share#?source=http://halston696.com/repo"]{
 </style>
 </head>
 <body>
-    <div class="background"></div>
+
     <div class="content">
         <div class="header">
             <img src="assets/images/avatar.png" width="120px" />
-            <h1>Wylliam Altman</h1>
+            <h1>[halston altman]</h1>
         </div>
         <div class="contentBlock">
             <hr class="firstHr" />
@@ -65,15 +58,15 @@ a[href="https://cydia.saurik.com/api/share#?source=http://halston696.com/repo"]{
                 <div class="inner">
                     <div class="comment">// Array items are clickable</div>
                     <div class="block"><span class="var">var</span> tweaks = [</div>
-                    <a href="http://cydia.saurik.com/package/com.halston696.blackpowerdown">'<span class="yellow">BlackPowerDown</span>',</a>
-                    <a href="http://cydia.saurik.com/package/com.halston696.blackappswitcher">'<span class="yellow">Custom Switcher Background</span>',</a>
-                    <a href="http://cydia.saurik.com/package/com.halston696.facebookuicustomizer">'<span class="yellow">FacebookUICustomizer</span>'</a>
-                    <a href="http://cydia.saurik.com/package/com.halston696.instagramuicustomizer">'<span class="yellow">InstagramUICustomizer</span>'</a>
-                    <a href="http://cydia.saurik.com/package/com.halston696.nolinesnc">'<span class="yellow">No Lines NC</span>',</a>
-                    <a href="http://cydia.saurik.com/package/com.halston696.roundprofilepicforfacebook">'<span class="yellow">Round Profile Pic (For Facebook)</span>',</a>
-                    <a href="http://cydia.saurik.com/package/com.halston696.roundprofilepicfortwitter">'<span class="yellow">Round Profile Pic (For Twitter)</span>',</a>
-                    <a href="http://cydia.saurik.com/package/com.halston696.squareswitcher9">'<span class="yellow">SquareSwitcher9</span>'</a>
-                    <a href="http://cydia.saurik.com/package/com.halston696.twitteruicustomizer">'<span class="yellow">TwitterUICustomizer</span>'</a>
+                    <a href="http://cydia.saurik.com/package/com.halston696.blackpowerdown">'<span class="yellow">BlackPowerDown</span>',</a><br>
+                    <a href="http://cydia.saurik.com/package/com.halston696.blackappswitcher">'<span class="yellow">Custom Switcher Background</span>',</a><br>
+                    <a href="http://cydia.saurik.com/package/com.halston696.facebookuicustomizer">'<span class="yellow">FacebookUICustomizer</span>'</a><br>
+                    <a href="http://cydia.saurik.com/package/com.halston696.instagramuicustomizer">'<span class="yellow">InstagramUICustomizer</span>'</a><br>
+                    <a href="http://cydia.saurik.com/package/com.halston696.nolinesnc">'<span class="yellow">No Lines NC</span>',</a><br>
+                    <a href="http://cydia.saurik.com/package/com.halston696.roundprofilepicforfacebook">'<span class="yellow">Round Profile Pic (For Facebook)</span>',</a><br>
+                    <a href="http://cydia.saurik.com/package/com.halston696.roundprofilepicfortwitter">'<span class="yellow">Round Profile Pic (For Twitter)</span>',</a><br>
+                    <a href="http://cydia.saurik.com/package/com.halston696.squareswitcher9">'<span class="yellow">SquareSwitcher9</span>'</a><br>
+                    <a href="http://cydia.saurik.com/package/com.halston696.twitteruicustomizer">'<span class="yellow">TwitterUICustomizer</span>'</a><br>
                     <a href="http://cydia.saurik.com/package/com.halston696.youtubeuicustomizer">'<span class="yellow">YouTubeUICustomizer</span>'</a>
                     <div class="block">];</div>
                 </div>

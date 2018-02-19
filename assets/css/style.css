@@ -30,3 +30,15 @@ body, input{
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
+
+
+
+.centerText{ text-align: center; }
+.largFont{ font-size: 21px; font-weight: 300; }
+.boldFont{ font-weight: 600; }
+.selectableText{ -webkit-user-select: text; user-select: text; }
+a[href="https://twitter.com/halston696"]{ color: #00aced; }
+a[href="http://halston696.com/repo"]{ color: #27AE60; }
+a[href="https://cydia.saurik.com/api/share#?source=http://halston696.com/repo"]{ color: #AB7053; }
+
+
