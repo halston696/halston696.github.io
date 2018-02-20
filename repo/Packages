@@ -35,7 +35,7 @@ Version: 0.0.1-5
 Architecture: iphoneos-arm
 Installed-Size: 365
 Depends: mobilesubstrate
-Filename: debs/com.halston696.tweetbotuicustomizer.0.1-5_iphoneos-arm.deb
+Filename: debs/com.halston696.tweetbotuicustomizer_0.1-5_iphoneos-arm.deb
 Size: 135568
 MD5sum: 14650b08894ab07282524a11874cd8a1
 SHA1: f6f211c41431d208bf4ebdae60ce872f00479ffd
