@@ -33,7 +33,7 @@ Name: No Lines NC
 Package: com.halston696.tweetbotuicustomizer
 Version: 0.0.1-5
 Architecture: iphoneos-arm
-Installed-Size: 390
+Installed-Size: 365
 Depends: mobilesubstrate
 Filename: debs/com.halston696.tweetbotuicustomizer.0.1-5_iphoneos-arm.deb
 Size: 135568
