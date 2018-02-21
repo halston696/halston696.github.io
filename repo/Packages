@@ -31,15 +31,15 @@ Depiction: http://halston696.github.io/repo/depictions/nolinesnc/index.html
 Name: No Lines NC
 
 Package: com.halston696.tweetbotuicustomizer
-Version: 0.0.1-5
+Version: 0.0.1-1
 Architecture: iphoneos-arm
 Installed-Size: 365
 Depends: mobilesubstrate
-Filename: debs/com.halston696.tweetbotuicustomizer_0.1-5_iphoneos-arm.deb
-Size: 135568
-MD5sum: 14650b08894ab07282524a11874cd8a1
-SHA1: f6f211c41431d208bf4ebdae60ce872f00479ffd
-SHA256: b66e89d229313976dfd881e705cfac0dff883e5467a805e6032722f4828f8699
+Filename: debs/com.halston696.tweetbotuicustomizer_0.0.1-1_iphoneos-arm.deb
+Size: 136980
+MD5sum: e2eaa0de71c9c64f7e26c2ae9d1e4e98
+SHA1: db6f821b8f91950a6cd7cde65949d5a2c0c6c542
+SHA256: 45535d5775b28b115ed6c9e793a3b46320ffa8a3872db2be4f0260c2dd1bdb21
 Section: Tweaks
 Description: TweetbotUICustomizer
 Author: halston696 <halston696@gmail.com>
