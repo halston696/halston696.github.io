@@ -1,34 +1,3 @@
-Package: com.halston696.youtubeuicustomizer
-Version: 0.0.2-4
-Architecture: iphoneos-arm
-Installed-Size: 390
-Depends: mobilesubstrate, preferenceloader, org.thebigboss.libcolorpicker
-Filename: debs/com.halston696.youtubeuicustomizer_0.0.2-4_iphoneos-arm.deb
-Size: 141164
-MD5sum: 0d4d56ab208a3919d48761a956738ed2
-SHA1: c6f67579923978d4e7829ec9dfcf68f328ed4a70
-SHA256: 1d0e5c36f980a7625c27ec32d2dae7833507cad9f3a9bb05ae34518e1019ab29
-Section: Tweaks
-Description: YouTubeUICustomizer
-Author: halston696 <halston696@gmail.com>
-Depiction: http://halston696.github.io/repo/depictions/youtubeuicustomizer/index.html
-Name: YouTubeUICustomizer
-
-Package: com.halston696.nolinesnc
-Version: 0.0.2-4
-Architecture: iphoneos-arm
-Installed-Size: 304
-Depends: mobilesubstrate, firmware (>= 7.0)
-Filename: debs/com.halston696.nolinesnc_0.0.2-4_iphoneos-arm.deb
-Size: 57432
-MD5sum: c7de74f654ca65b086f759737e4e8cbc
-SHA1: 2c965a7a15b57262fa9ae895d6130662f4c883d9
-SHA256: cfee313cdb0e7b70ce1da34e96e3241de6adf802dd284916b971b3692182acc4
-Section: Tweaks
-Description: no lines nc
-Author: halston696 <halston696@gmail.com>
-Depiction: http://halston696.github.io/repo/depictions/nolinesnc/index.html
-Name: No Lines NC
 
 Package: com.halston696.tweetbotuicustomizer
 Version: 0.0.1-5
