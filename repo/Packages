@@ -1,0 +1,18 @@
+Package: com.halston696.test
+Version: 0.0.0-1
+Architecture: iphoneos-arm
+Maintainer: halston696 <halston696@gmail.com>
+Installed-Size: 340
+Depends: mobilesubstrate, preferenceloader, org.thebigboss.libcolorpicker, ws.hbang.common
+Filename: ./debs/com.halston696.test_0.0.0-1_iphoneos-arm.deb
+Size: 139224
+MD5sum: 7e4cbff2385d3d3a36fe27fa95cdd1ef
+SHA1: 1c47f5a850ab448cdc704b8d599c0fa0a25fd388
+SHA256: f2347338a99ab1dacc32ef1da3414352ff44e52823b54eaea89d15a0f6916f85
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: halston696 <halston696@gmail.com>
+Dev: halston696
+Icon: file:///Library/PreferenceBundles/test.bundle/icon@2x.png
+Name: test
+
