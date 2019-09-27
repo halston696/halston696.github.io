@@ -5,7 +5,9 @@ html{
        -moz-text-size-adjust: 100%;
         -ms-text-size-adjust: 100%;
             text-size-adjust: 100%;
+}
 
+/*
     -webkit-user-select: none;
        -moz-user-select: none;
         -ms-user-select: none;
@@ -20,7 +22,9 @@ html{
        -moz-tap-highlight-color: transparent;
         -ms-tap-highlight-color: transparent;
             tap-highlight-color: transparent;
-}
+*/
+
+
 body, input{
     margin: 0;
     font-family: sans-serif;
